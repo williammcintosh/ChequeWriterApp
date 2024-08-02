@@ -30,3 +30,4 @@
 /Users/willmcintosh/DocBackup/ChequeWriter/ChequeWriterApp/obj/Debug/net8.0/ref/ChequeWriterApp.dll
 /Users/willmcintosh/DocBackup/ChequeWriter/ChequeWriterApp/bin/Debug/net8.0/ChequeLogic/obj/ChequeLogic.vbproj.nuget.dgspec.json
 /Users/willmcintosh/DocBackup/ChequeWriter/ChequeWriterApp/bin/Debug/net8.0/ChequeLogic/obj/project.assets.json
+/Users/willmcintosh/DocBackup/ChequeWriter/ChequeWriterApp/obj/Debug/net8.0/ChequeWriterApp.sourcelink.json

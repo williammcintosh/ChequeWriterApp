@@ -1,16 +1,24 @@
 ﻿@page
-@model IndexModel
-@{
-    ViewData["Title"] = "Home page";
-}
+@model ChequeWriterApp.Pages.IndexModel
 
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
-    <title>Hello, World!</title>
+    <title>Cheque Writer</title>
 </head>
 <body>
-    <h1>Hello, World!</h1>
+    <h1>Cheque Writer</h1>
+    <form method="post">
+        <label for="amount">Enter Amount:</label>
+        <input type="text" id="amount" name="amount" />
+        <button type="submit">Submit</button>
+    </form>
+    <div>
+        @if (!string.IsNullOrEmpty(Model.SubmittedAmount))
+        {
+            <p>You wrote: @Model.SubmittedAmount</p>
+        }
+    </div>
 </body>
 </html>
