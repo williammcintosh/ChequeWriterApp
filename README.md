@@ -1,3 +1,8 @@
+# Files Overview
+
+- `ChequeWriterApp/Pages/Index.cshtml` ASP.NET razor page used to combine HTML markup with C# code to dynamically render content.
+- `ChequeWriterApp/Helpers/NumberToWordsConverter.cs` C# class that converts a given numeric value into its corresponding English word.
+
 # How the NumberToWordsConverter Class Works
 
 ## Overview
