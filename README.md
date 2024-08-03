@@ -238,3 +238,7 @@ cd ChequeWriterApp
 2. **Verify Results:**
 
    - Check if the number is converted and displayed in words as expected, ensuring everything works as intended.
+
+# Challenges
+
+The [https://dotnet.microsoft.com/en-us/learn/dotnet/hello-world-tutorial/intro](Dot Net Microsoft tutorial) that I used explicitly uses C#. Once I got that to work with recursion and use of division and modulo, I was not able to convert the project over to a VB.NET project. I even tried creating a simple "Hello World!" web project and couldn't get it working without an explosions of errors.
