@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ChequeWriterApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2f606710d179c93ce78e24fb97663ac0a9e6b66b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+02536dea71f015a48f091017698eb727ec2d0cbb")]
 [assembly: System.Reflection.AssemblyProductAttribute("ChequeWriterApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ChequeWriterApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
