@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/willmcintosh/DocBackup/ChequeWriter/ChequeWriterApp/ChequeWriterApp.csproj": {}
+    "/Users/willmcintosh/DocBackup/BookingTimes__ChequeWriter/ChequeWriterApp/ChequeWriterApp.csproj": {}
   },
   "projects": {
-    "/Users/willmcintosh/DocBackup/ChequeWriter/ChequeWriterApp/ChequeWriterApp.csproj": {
+    "/Users/willmcintosh/DocBackup/BookingTimes__ChequeWriter/ChequeWriterApp/ChequeWriterApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/willmcintosh/DocBackup/ChequeWriter/ChequeWriterApp/ChequeWriterApp.csproj",
+        "projectUniqueName": "/Users/willmcintosh/DocBackup/BookingTimes__ChequeWriter/ChequeWriterApp/ChequeWriterApp.csproj",
         "projectName": "ChequeWriterApp",
-        "projectPath": "/Users/willmcintosh/DocBackup/ChequeWriter/ChequeWriterApp/ChequeWriterApp.csproj",
+        "projectPath": "/Users/willmcintosh/DocBackup/BookingTimes__ChequeWriter/ChequeWriterApp/ChequeWriterApp.csproj",
         "packagesPath": "/Users/willmcintosh/.nuget/packages/",
-        "outputPath": "/Users/willmcintosh/DocBackup/ChequeWriter/ChequeWriterApp/obj/",
+        "outputPath": "/Users/willmcintosh/DocBackup/BookingTimes__ChequeWriter/ChequeWriterApp/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/willmcintosh/.nuget/NuGet/NuGet.Config"

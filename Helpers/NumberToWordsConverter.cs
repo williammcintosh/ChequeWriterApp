@@ -39,25 +39,49 @@ namespace ChequeWriterApp
 
         private static string ConvertWholeNumberToWords(int number)
         {
+            string remainder = "";
             if (number == 0)
+            {
                 return string.Empty;
+            }
 
             if (number < 20)
-                return UnitsMap[number];
+            {
+                remainder = UnitsMap[number];
+                return remainder;
+            }
 
             if (number < 100)
-                return $"{TensMap[number / 10]}-{UnitsMap[number % 10]}".TrimEnd('-');
+            {
+                string tens = TensMap[number / 10];
+                remainder = UnitsMap[number % 10];
+                return $"{tens}-{remainder}".TrimEnd('-');
+            }
 
             if (number < 1000)
-                return $"{UnitsMap[number / 100]} hundred {ConvertWholeNumberToWords(number % 100)}".Trim();
+            {
+                string hundreds = UnitsMap[number / 100];
+                remainder = ConvertWholeNumberToWords(number % 100);
+                return $"{hundreds} hundred {remainder}".Trim();
+            }
 
             if (number < 1000000)
-                return $"{ConvertWholeNumberToWords(number / 1000)} thousand {ConvertWholeNumberToWords(number % 1000)}".Trim();
+            {
+                string thousands = ConvertWholeNumberToWords(number / 1000);
+                remainder = ConvertWholeNumberToWords(number % 1000);
+                return $"{thousands} thousand {remainder}".Trim();
+            }
 
             if (number < 1000000000)
-                return $"{ConvertWholeNumberToWords(number / 1000000)} million {ConvertWholeNumberToWords(number % 1000000)}".Trim();
+            {
+                string millions = ConvertWholeNumberToWords(number / 1000000);
+                remainder = ConvertWholeNumberToWords(number % 1000000);
+                return $"{millions} million {remainder}".Trim();
+            }
 
-            return $"{ConvertWholeNumberToWords(number / 1000000000)} billion {ConvertWholeNumberToWords(number % 1000000000)}".Trim();
+            string billions = ConvertWholeNumberToWords(number / 1000000000);
+            remainder = ConvertWholeNumberToWords(number % 1000000000);
+            return $"{billions} billion {remainder}".Trim();
         }
 
         private static string ConvertCentsToWords(int cents)
