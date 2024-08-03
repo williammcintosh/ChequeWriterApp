@@ -140,7 +140,7 @@ Now, let's piece together the results from each recursive call:
 The final result for the input `1234567` is:
 
 ```
-"One million Two hundred thirty-four thousand Five hundred Sixty-Seven"
+"One million Two hundred thirty-four thousand Five hundred Sixty-Seven and zero cents."
 ```
 
 ### Key Concepts
